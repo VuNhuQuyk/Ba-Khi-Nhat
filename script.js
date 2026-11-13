@@ -10,7 +10,7 @@ const timer = document.getElementById("timer");
 const startButton = document.getElementById("startButton");
 const resetButton = document.getElementById("resetButton");
 
-const allowedExtension = /\\.(jfif|jpe?g|jeg|png)$/i;
+const allowedExtension = /\.(jfif|jpe?g|jeg|png)$/i;
 let images = [];
 let objectUrls = [];
 let isRunning = false;
